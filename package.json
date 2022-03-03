@@ -1,13 +1,11 @@
 {
-  "name": "rh-react-hook-state",
+  "name": "rh-react-store",
   "version": "0.0.1",
   "description": "",
   "main": "/src/lib/index.tsx",
   "scripts": {
     "start": "webpack serve --config ./config/webpack.config.dev.js",
-    "start2": "cross-env PROJECT_ENV=1 webpack serve --config ./config/webpack.config.dev.js",
     "build": "webpack --mode=production --config ./config/webpack.config.prod.js",
-    "build2": "cross-env PROJECT_ENV=1 webpack --mode=production --config ./config/webpack.config.prod.js",
     "pub": "npm publish"
   },
   "keywords": [],

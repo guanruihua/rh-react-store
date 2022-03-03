@@ -3,3 +3,4 @@ test/
 push.bat
 .gitignore
 jest.config.ts
+__test__/
